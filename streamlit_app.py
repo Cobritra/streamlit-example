@@ -39,10 +39,8 @@ st.altair_chart(alt.Chart(df, height=700, width=700)
         size=alt.Size("rand", legend=None, scale=alt.Scale(range=[1, 150])),
     ))
 
-st.text_area(label="note")
+st.text_area(label="Note")
 
-#@markdown Enter Fields
-Note = "64 year old man comes in with past medical history of hypertension dyslipidemia diabetes now with chest pain found to have STEMI but also having GI bleeding.  Medications Lipitor metoprolol Levaquin  platelets 33 INR 3" #@param {type:"string"}
 Op_Note = 'cc' #@param {type:"string"}
 Na = None #@param {type:"number"}
 K = None #@param {type:"number"}ient is a 55 year old man with past medical hx of ALS, diabetes, respiratory failure 2/2 ALS for which he has been ventilator dependent for several years, chronic loculated hydropneumothorax, DM, dysphagia brought in to ED 2/2 progressive increase of WOB, ventilator asynchrony and respiratory distress at home.  The patient underwent CT chest which reveals increase air surrounding lung in hydropneumothorax.  Pulmonary evaluating.
